@@ -70,3 +70,6 @@ body{
     background: linear-gradient(270deg,#012210,#0b754b);
     cursor: pointer;
 }
+.form-right img{
+    width: 500px;
+}
