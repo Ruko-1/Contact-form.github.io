@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'outfit';
+    background: linear-gradient(#3fcc7f,#3fcc7f);
+    width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.form-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.form-left-title h2{
+    font-weight: 600;
+    color: #e2e6e4;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.form-left-title hr{
+    border: none;
+    width: 120;
+    height: 5px;
+    background-color: azure;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.form-input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #000;
+    border-radius: 50px;
+}
+.form-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.form-input:focus{
+    border: 2px solid #18bd4f;
+}
+.form-input::placeholder{
+    color: #000;
+}
+.form-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#012210,#0b754b);
+    cursor: pointer;
+}
